@@ -93,6 +93,24 @@ nav a:hover,
 nav a:focus {
     color: #c3d3cb;
 }
+nav input {
+    display: none;
+    float: right;
+}
+nav .open {
+    padding: 10px;
+    font-size: 3.5rem;
+    position: fixed;
+	top: 10px;
+	right: 10px;
+	color: white;
+    visibility: hidden;
+    cursor: pointer;
+}
+nav .close { 
+    visibility: hidden;
+    padding: 10px;
+}
 
 h1 {
     font-family: 'Fredericka the Great', cursive;
@@ -122,12 +140,13 @@ h1 {
     color: white;
     padding: 10px;
 }
-
 .social a:hover,
 .social a:focus {
     color: #c3d3cb;
 }
-
+.hamburgerSocial {
+    display: none;
+}
 /***************SUZIE STORY***************/
 .suzie {
     background-color: #152d20;
@@ -415,7 +434,6 @@ footer a:focus {
         text-align: center;
         width: 100%;
     }
-
 }
 @media screen and (max-width: 890px) {
     h1 {
@@ -426,18 +444,53 @@ footer a:focus {
     text-transform: uppercase;
     line-height: inherit;
     }
-    nav ul {
-        position: absolute;
-        right: 10px;
-        top: 10px;
+    nav .test {
+        position: fixed;
+        background-color: #c3d3cb;
+        width: 55%;
+        right: -58%;
+        transition: all 0.5s;
+        z-index: 30;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.25);
     }
     nav ul li {
         display: block;
+        text-align: center;
     }
-
-nav ul a { 
-    padding: 10px;
+    nav ul a { 
+        padding: 10px;
+        font-size: 3rem;
+    }
+    nav .open {
+        visibility: visible;
+        text-shadow: -1px 0px 6px rgba(150, 150, 150, 1);
+    }
+    input[type=checkbox]:checked + div.test{
+        right: 0;
+    }
+    .hamburgerSocial {
+    display: inline-block;
+    padding: 20px 0px 20px 15px;
 }
+    .hamburgerSocial a {
+        padding: 10px;
+        font-size: 3rem;
+    }
+.social {
+    display: none;
+}
+.test .close {
+    display: block;
+    visibility: visible;
+    font-size: 3.5rem;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
 }
 
 @media screen and (max-width: 768px) {
