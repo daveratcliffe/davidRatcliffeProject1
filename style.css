@@ -43,6 +43,10 @@ h3 {
     color: white;
 }
 
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
@@ -72,8 +76,6 @@ ul {
 
 nav ul li {
     text-align: left;
-}
-nav ul li {
     color: white;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.9rem;
@@ -81,6 +83,10 @@ nav ul li {
     padding: 10px;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+nav ul a { 
+    padding: 10px;
 }
 
 nav a:hover,
@@ -98,10 +104,6 @@ h1 {
     text-align: right;
     text-transform: uppercase;
     line-height: 117px;
-}
-
-h2 {
-    font-family: 'Fredericka the Great', cursive;
 }
 
 .social {
@@ -152,7 +154,6 @@ h2 {
 .suzie p {
     margin-bottom: 30px;
 }
-
 .suzie a { 
     color: #152d20;
     padding: 10px;
@@ -165,6 +166,7 @@ h2 {
     background-color: #c3d3cb;
 }
 
+/***************FRIENDS***************/
 .friends {
     background-color: #c3d3cb;
     height: 80vh;
@@ -334,4 +336,114 @@ footer a{
 footer a:hover,
 footer a:focus {
     color: #c3d3cb;
+}
+
+/***************MEDIA QUERIES***************/
+
+@media screen and (max-width: 1250px) {
+
+    .blogPosts article {
+        padding: 50px 20px 20px 20px;
+    }
+    .suzie {
+    padding-top: 50px;
+    }
+    .suzie article { 
+        width: 65%;
+    }
+    .suzie aside { 
+        width: calc(35% - 40px);
+    }
+    .blogPosts p {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    html {
+        font-size: 50%;
+    }
+    .friends h2 {
+        padding-bottom: 35px;
+    }
+    .friends ul li {
+        width: calc(50% - 15px);
+    }
+    .friends li:nth-child(3){
+        display: none;
+    }
+    .blogPosts article {
+        padding: 20px 20px 20px 20px;
+    }
+    .infoSignUp {
+        padding-top: 0;
+        height: 45vh;
+    }
+    .infoSignUp button{
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .infoSignUp input{
+        text-align: center;
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .infoFloatContainer {
+        float: none;
+        text-align: center;
+    }
+    .bottomNav {
+        width: 100%;
+    }
+    .bottomNav li{
+        display: inline-block;
+        padding: 20px 10px 20px 10px;
+    }
+    .address {
+        text-align: center;
+        width: 100%;
+    }
+    .address h3 {
+        padding-top: 10px;
+    }
+    .signUp {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 890px) {
+    h1 {
+    font-size: 4rem;
+    float: left;
+    max-width: 200px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: inherit;
+    }
+    nav ul {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    nav ul li {
+        display: block;
+    }
+
+nav ul a { 
+    padding: 10px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
 }
