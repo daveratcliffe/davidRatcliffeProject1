@@ -13,7 +13,6 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     font-family: 'Fredericka the Great', cursive;
 
     font-family: 'Roboto', sans-serif; */
-
 * {
     padding: 0;
     margin: 0;
@@ -23,8 +22,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffffff;
 }
 ul {
     list-style: none;
@@ -34,31 +33,36 @@ img {
     height: auto;
     display: block;
 }
-a, 
+a,
 h3 {
     text-decoration: none;
     font-size: 2.2rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     text-transform: uppercase;
     color: white;
 }
 
 h2 {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: "Fredericka the Great", cursive;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     line-height: 29px;
     font-weight: 300;
 }
 .wrapper {
-	width: 85%;
-	max-width: 2140px;
-	margin: 0 auto;
+    width: 85%;
+    max-width: 2140px;
+    margin: 0 auto;
 }
-
+.skipToMain {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #0645ad;
+}
 /***************HEADER***************/
 
 header {
@@ -77,7 +81,7 @@ ul {
 nav ul li {
     text-align: left;
     color: white;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 2.9rem;
     display: inline-block;
     padding: 10px;
@@ -85,7 +89,7 @@ nav ul li {
     text-transform: uppercase;
 }
 
-nav ul a { 
+nav ul a {
     padding: 10px;
 }
 
@@ -101,19 +105,19 @@ nav .open {
     padding: 10px;
     font-size: 3.5rem;
     position: fixed;
-	top: 10px;
-	right: 10px;
-	color: white;
+    top: 10px;
+    right: 10px;
+    color: white;
     visibility: hidden;
     cursor: pointer;
 }
-nav .close { 
+nav .close {
     visibility: hidden;
     padding: 10px;
 }
 
 h1 {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: "Fredericka the Great", cursive;
     color: white;
     font-size: 12rem;
     font-weight: 400;
@@ -131,12 +135,12 @@ h1 {
     bottom: 40px;
     right: 15px;
 }
-.social a{
+.social a {
     color: white;
     padding: 10px;
     font-size: 3rem;
 }
-.social li{
+.social li {
     color: white;
     padding: 10px;
 }
@@ -157,10 +161,10 @@ h1 {
 .suzie article {
     float: left;
 }
-.suzie article { 
+.suzie article {
     width: 75%;
 }
-.suzie aside { 
+.suzie aside {
     margin-right: 40px;
     width: calc(25% - 40px);
 }
@@ -173,7 +177,7 @@ h1 {
 .suzie p {
     margin-bottom: 30px;
 }
-.suzie a { 
+.suzie a {
     color: #152d20;
     padding: 10px;
     background-color: white;
@@ -212,7 +216,7 @@ h1 {
     width: calc(30% - 15px);
 }
 /***************ANIMAL SPOTLIGHT/EVENTS/MERCH***************/
-.visualNav{
+.visualNav {
     background-color: #152d20;
     height: 30vh;
 }
@@ -225,10 +229,10 @@ h1 {
 }
 .visualNav li {
     float: left;
-    width: calc(100%/3);
+    width: calc(100% / 3);
 }
-.visualNav a { 
-    font-family: 'Cormorant Garamond', serif;
+.visualNav a {
+    font-family: "Cormorant Garamond", serif;
     font-size: 3.5rem;
     text-transform: uppercase;
     color: white;
@@ -243,7 +247,7 @@ h1 {
 
 /***************BLOG POSTS***************/
 
-.blogPosts h2{
+.blogPosts h2 {
     font-size: 3.5rem;
     font-weight: 400;
     color: #152d20;
@@ -252,7 +256,7 @@ h1 {
 .blogPosts a {
     color: white;
     font-size: 1.8rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     padding: 10px;
     background-color: #152d20;
     text-transform: uppercase;
@@ -273,14 +277,14 @@ h1 {
     float: right;
 }
 .bond {
-    float:left;
+    float: left;
 }
 .blogPosts article {
     width: 50%;
     float: left;
     padding: 150px 20px 20px 20px;
 }
-.blogPosts aside img{
+.blogPosts aside img {
     object-fit: cover;
 }
 /***************INFO***************/
@@ -320,7 +324,7 @@ h1 {
     text-align: center;
     width: 50%;
 }
-.signUp input{
+.signUp input {
     border: none;
     width: 60%;
     height: 50px;
@@ -329,7 +333,7 @@ h1 {
 .signUp button {
     width: 30%;
     height: 50px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 1.8rem;
     text-transform: uppercase;
     color: white;
@@ -347,8 +351,8 @@ footer {
     text-align: center;
     padding: 20px;
 }
-footer a{
-    font-family: 'Roboto', sans-serif;
+footer a {
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     text-transform: none;
 }
@@ -360,26 +364,26 @@ footer a:focus {
 /***************MEDIA QUERIES***************/
 
 @media screen and (max-width: 1250px) {
-
     .blogPosts article {
         padding: 50px 20px 20px 20px;
     }
     .suzie {
-    padding-top: 50px;
+        padding-top: 50px;
     }
-    .suzie article { 
+    .suzie article {
         width: 65%;
     }
-    .suzie aside { 
+    .suzie aside {
         width: calc(35% - 40px);
     }
     .blogPosts p {
-    padding-top: 10px;
-    padding-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 1080px) {
+    /* default font reduced to 8px */
     html {
         font-size: 50%;
     }
@@ -387,9 +391,9 @@ footer a:focus {
         padding-bottom: 35px;
     }
     .friends ul li {
-        width: calc(50% - 15px);
+        width: calc((100%/2) - 15px)
     }
-    .friends li:nth-child(3){
+    .friends li:nth-child(3) {
         display: none;
     }
     .blogPosts article {
@@ -399,13 +403,13 @@ footer a:focus {
         padding-top: 0;
         height: 45vh;
     }
-    .infoSignUp button{
+    .infoSignUp button {
         display: block;
         width: 100%;
         max-width: 500px;
         margin: 0 auto;
     }
-    .infoSignUp input{
+    .infoSignUp input {
         text-align: center;
         display: block;
         width: 100%;
@@ -419,7 +423,7 @@ footer a:focus {
     .bottomNav {
         width: 100%;
     }
-    .bottomNav li{
+    .bottomNav li {
         display: inline-block;
         padding: 20px 10px 20px 10px;
     }
@@ -436,15 +440,18 @@ footer a:focus {
     }
 }
 @media screen and (max-width: 890px) {
-    h1 {
-    font-size: 4rem;
-    float: left;
-    max-width: 200px;
-    text-align: left;
-    text-transform: uppercase;
-    line-height: inherit;
+    header {
+        background-position: 25%;
     }
-    nav .test {
+    h1 {
+        font-size: 4rem;
+        float: left;
+        max-width: 200px;
+        text-align: left;
+        text-transform: uppercase;
+        line-height: inherit;
+    }
+    nav .hamburgerMenu {
         position: fixed;
         background-color: #c3d3cb;
         width: 55%;
@@ -453,50 +460,127 @@ footer a:focus {
         z-index: 30;
         margin: 0 auto;
         text-align: center;
+        top: 0;
+        height: 100vh;
         box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.25);
     }
     nav ul li {
         display: block;
         text-align: center;
     }
-    nav ul a { 
+    nav ul a {
+        display: block;
         padding: 10px;
         font-size: 3rem;
+        color: black;
+    }
+    nav a:hover,
+    nav a:focus-within {
+        background-color: #d0dcd9;
+        color: black;
     }
     nav .open {
         visibility: visible;
         text-shadow: -1px 0px 6px rgba(150, 150, 150, 1);
     }
-    input[type=checkbox]:checked + div.test{
+    input[type="checkbox"]:checked + div.hamburgerMenu {
         right: 0;
     }
     .hamburgerSocial {
-    display: inline-block;
-    padding: 20px 0px 20px 15px;
-}
+        display: inline-block;
+        padding: 20px 0px 20px 15px;
+    }
     .hamburgerSocial a {
         padding: 10px;
         font-size: 3rem;
+        color: black;
     }
-.social {
-    display: none;
-}
-.test .close {
-    display: block;
-    visibility: visible;
-    font-size: 3.5rem;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 15px;
-    cursor: pointer;
-}
-
+    .social {
+        display: none;
+    }
+    .hamburgerMenu .close {
+        display: block;
+        visibility: visible;
+        font-size: 3.5rem;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 15px;
+        cursor: pointer;
+        color: black;
+    }
+    .suzie {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .suzie aside,
+    .suzie article {
+        float: none;
+    }
+    .suzie article {
+        width: 100%;
+        text-align: center;
+    }
+    .suzie h2 {
+        padding-top: 30px;
+    }
+    .suzie aside {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .blogPosts {
+        float: none;
+    }
+    .blogPosts aside,
+    .blogPosts article {
+        width: 100%;
+    }
+    .blogPosts article {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .zebra,
+    .bond {
+        float: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+    .friends {
+    height: 100%;
+    }
+    .friends h2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .friends ul {
+    padding-bottom: 15px;
+    }
+    .friends li {
+        width: calc((100%/2) - 15px)
+    }
 }
 
-@media screen and (max-width: 480px) {
-    
+@media screen and (max-width: 590px) {
+    .suzie aside {
+        width: 100%;
+    }
+    .visualNav {
+        height: 100%;
+    }
+    .visualNav ul {
+        padding-top: 0;
+    }
+    .visualNav li {
+        float: none;
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+
+/* default font reduced to 6px */
+    html {
+        font-size: 38%;
+    }
 }

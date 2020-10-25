@@ -15,27 +15,27 @@
 		></script>
     </head>
     <body>
+        <a class="skipToMain" href="#skipToSuzie">skip to main content</a>
         <header>
             <div class="wrapper clearfix">
-            
             <nav>
-            <label class="open" for="toggle"><i class="fa fa-bars"></i></label> 
-            <input type="checkbox" id="toggle" name="toggle"/>
-            <div class="test">
-                <label class="close" for="toggle"><i class="fas fa-times"></i></label>
-                <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">contact</a></li>
-                </ul>
-                <div class="hamburgerSocial">
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-snapchat-ghost"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                <label class="open" for="toggle" aria-label="menu"><i class="fa fa-bars"></i></label> 
+                <input type="checkbox" id="toggle" name="toggle"/>
+                <div class="hamburgerMenu">
+                    <label class="close" for="toggle"><i class="fas fa-times"></i></label>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                    <div class="hamburgerSocial">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
                 </div>
-            </div>
             </nav>
             <h1>Animal Refuge</h1>
             </div>
@@ -47,10 +47,10 @@
                 </ul>
         </header>
         <main>
-            <section class="suzie">
+            <section id="skipToSuzie" class="suzie">
                 <div class="wrapper clearfix">
                     <aside>
-                    <img src="./assets/image-6.jpg" alt=""/>
+                    <img src="./assets/image-6.jpg" alt="a cat laying on a blanket"/>
                     </aside>
                     <article>
                         <h2>suzie's story</h2>
@@ -71,9 +71,9 @@
                 <div class="wrapper clearfix">
                     <h2>some of our <span>friends</span></h2>
                     <ul>
-                        <li><img src="./assets/image-5.jpg" alt=""/></li>
-                        <li><img src="./assets/image-4.jpg" alt=""/></li>
-                        <li><img src="./assets/image-3.jpg" alt=""/></li>
+                        <li><img src="./assets/image-5.jpg" alt="a lizard standing on a branch"/></li>
+                        <li><img src="./assets/image-4.jpg" alt="a fluffy sheep"/></li>
+                        <li><img src="./assets/image-3.jpg" alt="a parrot standing on a branch eating food"/></li>
                     </ul>
                 </div>
             </section>
@@ -87,6 +87,9 @@
                 </div>
             </section>
             <section class="blogPosts clearfix">
+                <aside class="zebra">
+                    <img src="./assets/image-7.jpg" alt="two zebra standing in tall grass" />
+                </aside>
                 <article class="zebraWritten">
                     <div class="wrapper"> 
                     <h2>fascinating facts about zebras</h2>
@@ -99,13 +102,10 @@
                     <a href="">read more</a>
                     </div>
                 </article>
-                <aside class="zebra">
-                    <img src="./assets/image-7.jpg" alt="" />
-                </aside>
             </section>
             <section class="blogPosts clearfix">
                 <aside class="bond">
-                    <img src="./assets/image-2.jpg" alt="" />
+                    <img src="./assets/image-2.jpg" alt="a kitten pressing its paw against a person's hand" />
                 </aside>
                 <article class="BondWritten">
                     <div class="wrapper"> 
@@ -136,7 +136,7 @@
                     <form action="">
                         <h3>stay updated</h3>
                         <p>Subscribe to our newsletter to stay updated.</p>
-                        <input type="email" name="email" id="email" placeholder="email address"/>
+                        <input type="email" name="email" id="email" placeholder="email address" aria-label="email address"/>
                         <button type="submit">subscribe</button>
                     </form>
                 </div>
