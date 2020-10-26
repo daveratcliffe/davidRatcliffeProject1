@@ -8,11 +8,6 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .srOnly { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-    /* font-family: 'Cormorant Garamond', serif;
-
-    font-family: 'Fredericka the Great', cursive;
-
-    font-family: 'Roboto', sans-serif; */
 * {
     padding: 0;
     margin: 0;
@@ -391,7 +386,7 @@ footer a:focus {
         padding-bottom: 35px;
     }
     .friends ul li {
-        width: calc((100%/2) - 15px)
+        width: calc((100% / 2) - 15px);
     }
     .friends li:nth-child(3) {
         display: none;
@@ -546,17 +541,17 @@ footer a:focus {
 
 @media screen and (max-width: 768px) {
     .friends {
-    height: 100%;
+        height: 100%;
     }
     .friends h2 {
         padding-top: 15px;
         padding-bottom: 15px;
     }
     .friends ul {
-    padding-bottom: 15px;
+        padding-bottom: 15px;
     }
     .friends li {
-        width: calc((100%/2) - 15px)
+        width: calc((100% / 2) - 15px);
     }
 }
 
@@ -578,8 +573,7 @@ footer a:focus {
 }
 
 @media screen and (max-width: 386px) {
-
-/* default font reduced to 6px */
+    /* default font reduced to 6px */
     html {
         font-size: 38%;
     }
